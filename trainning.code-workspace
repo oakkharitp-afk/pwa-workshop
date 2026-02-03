@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "server",
+			"path": "server"
+		},
+		{
+			"name": "go-basic-syntex",
+			"path": "go-basic-syntex"
+		},
+		{
+			"name": "database-connection",
+			"path": "database-connection"
+		},
+		{
+			"name": "project-structure",
+			"path": "project-structure"
+		}
+	],
+	"settings": {}
+}
