@@ -16,7 +16,7 @@ var (
 )
 
 func function1() {
-	var localVariable1 = "local variable"
+	var localVariable1 = "local variable1"
 	fmt.Println(localVariable1)
 
 	// access global variable and constant
@@ -33,8 +33,8 @@ func function1() {
 }
 
 func function2() {
-	var localVariable2 = "local variable"
-	localVariable3 := "local variable"
+	var localVariable2 = "local variable2"
+	localVariable3 := "local variable3"
 	fmt.Println(localVariable2)
 	fmt.Println(localVariable3)
 
