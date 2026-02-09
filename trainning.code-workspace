@@ -1,21 +1,39 @@
 {
 	"folders": [
 		{
-			"name": "server",
-			"path": "server"
-		},
-		{
 			"name": "go-basic-syntex",
 			"path": "go-basic-syntex"
+		},
+		{
+			"name": "http-server",
+			"path": "http-server"
+		},
+		{
+			"name": "http-client",
+			"path": "http-client"
 		},
 		{
 			"name": "database-connection",
 			"path": "database-connection"
 		},
 		{
+			"name": "rest-api",
+			"path": "rest-api"
+		},
+		{
+			"name": "rest-api-geo-data",
+			"path": "rest-api-geo-data"
+		},
+		{
+			"name": "docker",
+			"path": "docker"
+		},
+		{
 			"name": "project-structure",
 			"path": "project-structure"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"kafka.clusters.selected": "tset-bG9jYWxob3N0OjkwOTM"
+	}
 }

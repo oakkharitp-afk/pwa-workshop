@@ -1,10 +1,9 @@
 package main
 
 import (
-	"context"
 	"os"
 	"pwa-workshop/project-structure/database"
-	migration "pwa-workshop/project-structure/database/migrations"
+
 	"pwa-workshop/project-structure/handler"
 	"pwa-workshop/project-structure/logger"
 	myMid "pwa-workshop/project-structure/middleware"
@@ -35,9 +34,7 @@ func main() {
 	if err != nil {
 		logger.Fatal("error to connect postgres database, ", err)
 	}
-	if err := migration.MigratePipeSchema(context.Background(), pgCli); err != nil {
-		logger.Fatal("error to migrate schema, ", err)
-	}
+
 	db := database.NewDatabase(mgCli, pgCli)
 	h := handler.NewHandler(db)
 
