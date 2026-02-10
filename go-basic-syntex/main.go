@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"pwa-workshop/go-basic-syntax/advanced"
+)
 
 func main() {
-	fmt.Print("hello word")
+	// fmt.Println("hello word")
+	advanced.MathFuncCaller()
 }

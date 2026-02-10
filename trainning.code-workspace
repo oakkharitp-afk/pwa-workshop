@@ -5,6 +5,10 @@
 			"path": "go-basic-syntex"
 		},
 		{
+			"name": "excercise",
+			"path": "excercise"
+		},
+		{
 			"name": "http-server",
 			"path": "http-server"
 		},
